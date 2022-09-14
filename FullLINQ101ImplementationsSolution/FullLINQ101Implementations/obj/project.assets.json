@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josem\\source\\FullLINQ101Implementations\\FullLINQ101ImplementationsSolution\\FullLINQ101Implementations\\FullLINQ101Implementations.csproj",
-      "projectName": "FullLINQ101Implementations",
-      "projectPath": "C:\\Users\\josem\\source\\FullLINQ101Implementations\\FullLINQ101ImplementationsSolution\\FullLINQ101Implementations\\FullLINQ101Implementations.csproj",
+      "projectUniqueName": "C:\\Users\\josem\\source\\FullLINQ101Implementations\\FullLINQ101ImplementationsSolution\\FullLINQ101Implementations\\LINQRestrictionOperators.csproj",
+      "projectName": "LINQRestrictionOperators",
+      "projectPath": "C:\\Users\\josem\\source\\FullLINQ101Implementations\\FullLINQ101ImplementationsSolution\\FullLINQ101Implementations\\LINQRestrictionOperators.csproj",
       "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\josem\\source\\FullLINQ101Implementations\\FullLINQ101ImplementationsSolution\\FullLINQ101Implementations\\obj\\",
       "projectStyle": "PackageReference",

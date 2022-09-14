@@ -1,7 +1,24 @@
 ﻿using FullLINQ101Implementations.Classes;
 
-// Examine a Sequence Property of Output Elements
+///////////////////////////////////////////
+// Filter elements based on position
+///////////////////////////////////////////
 
+string[] digits = { "zero", "one", "two", "three", "four", "five", "six", 
+    "seven", "eight", "nine" };
+
+var shortDigits = digits.Where((digit, index) => digit.Length < index);
+
+Console.WriteLine("Short digits:");
+foreach (var shortDigit in shortDigits)
+{
+    Console.WriteLine($"The word {shortDigit} is shorter than its value.");
+}
+
+///////////////////////////////////////////
+// Examine a Sequence Property of Output Elements
+///////////////////////////////////////////
+///
 List<Customer> customers = GetCustomerList();
 
 var waCustomers = from customer in customers
@@ -47,8 +64,9 @@ List<Customer> GetCustomerList()
     };
     return customerList;
 }
-
+///////////////////////////////////////////
 // Filter elements on multiple properties
+///////////////////////////////////////////
 
 List<Product> products2 = GetProductList();
 
@@ -62,9 +80,9 @@ foreach (var expensiveInStockProduct in expensiveInStockProducts)
     Console.WriteLine($"{expensiveInStockProduct.ProductName} is in stock and costs more than 3.00.");
 }
 
-
+///////////////////////////////////////////
 // Filter Elements on a Property  //////////////////////////////
-
+///////////////////////////////////////////
 
 List<Product> products = GetProductList();
 
@@ -94,9 +112,10 @@ List<Product> GetProductList()
     return productsList;
 }
 
-
+///////////////////////////////////////////
 // Your First LINQ Query //////////////////////////////
-
+///////////////////////////////////////////
+///
 int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
 
 var lowNumbers = from number in numbers
