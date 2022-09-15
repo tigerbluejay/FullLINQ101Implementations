@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace LINQProjectionOperators.Classes
 {
-    internal class Product
+    internal class Order
     {
-        public string ProductName { get; set; }
-        public string Category { get; set; }
-        public decimal UnitPrice { get; set; }
+        public int OrderID { get; set; }
+        public decimal Total { get; set; }
+        public DateTime OrderDate { get; set; }
     }
 }
