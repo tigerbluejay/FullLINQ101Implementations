@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQRestrictionOperators", "FullLINQ101Implementations\LINQRestrictionOperators.csproj", "{1111ECA6-8D03-4273-8007-F0A2B05A3D46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQProjectionOperators", "LINQProjectionOperators\LINQProjectionOperators.csproj", "{4D304325-7972-4B55-8023-4B6F6CB87513}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQProjectionOperators", "LINQProjectionOperators\LINQProjectionOperators.csproj", "{4D304325-7972-4B55-8023-4B6F6CB87513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartitionOperators", "PartitionOperators\PartitionOperators.csproj", "{67D61BA0-2C91-429C-9853-50844BC4B52E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4D304325-7972-4B55-8023-4B6F6CB87513}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D304325-7972-4B55-8023-4B6F6CB87513}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D304325-7972-4B55-8023-4B6F6CB87513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D61BA0-2C91-429C-9853-50844BC4B52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D61BA0-2C91-429C-9853-50844BC4B52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D61BA0-2C91-429C-9853-50844BC4B52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D61BA0-2C91-429C-9853-50844BC4B52E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

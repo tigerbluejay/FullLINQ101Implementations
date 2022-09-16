@@ -1,0 +1,15 @@
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\bin\Debug\net6.0\PartitionOperators.exe
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\bin\Debug\net6.0\PartitionOperators.deps.json
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\bin\Debug\net6.0\PartitionOperators.runtimeconfig.json
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\bin\Debug\net6.0\PartitionOperators.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\bin\Debug\net6.0\PartitionOperators.pdb
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\PartitionOperators.csproj.AssemblyReference.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\PartitionOperators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\PartitionOperators.AssemblyInfoInputs.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\PartitionOperators.AssemblyInfo.cs
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\PartitionOperators.csproj.CoreCompileInputs.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\PartitionOperators.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\refint\PartitionOperators.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\PartitionOperators.pdb
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\PartitionOperators.genruntimeconfig.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\ref\PartitionOperators.dll
