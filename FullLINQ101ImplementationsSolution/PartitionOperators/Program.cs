@@ -1,4 +1,4 @@
-﻿using PartitionOperators.Classes;
+﻿using LINQPartitionOperators.Classes;
 
 
 ///////////////////////////////////////

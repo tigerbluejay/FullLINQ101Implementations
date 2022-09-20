@@ -1,0 +1,15 @@
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\bin\Debug\net6.0\LINQPartitionOperators.exe
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\bin\Debug\net6.0\LINQPartitionOperators.deps.json
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\bin\Debug\net6.0\LINQPartitionOperators.runtimeconfig.json
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\bin\Debug\net6.0\LINQPartitionOperators.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\bin\Debug\net6.0\LINQPartitionOperators.pdb
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\LINQPartitionOperators.csproj.AssemblyReference.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\LINQPartitionOperators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\LINQPartitionOperators.AssemblyInfoInputs.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\LINQPartitionOperators.AssemblyInfo.cs
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\LINQPartitionOperators.csproj.CoreCompileInputs.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\LINQPartitionOperators.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\refint\LINQPartitionOperators.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\LINQPartitionOperators.pdb
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\LINQPartitionOperators.genruntimeconfig.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\PartitionOperators\obj\Debug\net6.0\ref\LINQPartitionOperators.dll

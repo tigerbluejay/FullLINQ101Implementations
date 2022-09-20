@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YwxqYOjvk+zhKbrbDTefDmVLPAWXJ30ovBBRNQ+B92OxvzROFKlX4ZYvgkJYMGP8d88EmmUZ2I0RA2BvsV7baw==",
+  "dgSpecHash": "fPZfi5iR1PGP5WJLh2zbNCi5N7f4ybtmE/5IEYlSPlmKZqcmJ8tDB72e7VQ638Z8U0Dz5YVHUqwXD7t3huZ7EQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\josem\\source\\FullLINQ101Implementations\\FullLINQ101ImplementationsSolution\\PartitionOperators\\PartitionOperators.csproj",
+  "projectFilePath": "C:\\Users\\josem\\source\\FullLINQ101Implementations\\FullLINQ101ImplementationsSolution\\PartitionOperators\\LINQPartitionOperators.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

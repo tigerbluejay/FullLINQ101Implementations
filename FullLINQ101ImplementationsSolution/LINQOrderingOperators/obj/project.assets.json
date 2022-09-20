@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josem\\source\\FullLINQ101Implementations\\FullLINQ101ImplementationsSolution\\PartitionOperators\\LINQPartitionOperators.csproj",
-      "projectName": "LINQPartitionOperators",
-      "projectPath": "C:\\Users\\josem\\source\\FullLINQ101Implementations\\FullLINQ101ImplementationsSolution\\PartitionOperators\\LINQPartitionOperators.csproj",
+      "projectUniqueName": "C:\\Users\\josem\\source\\FullLINQ101Implementations\\FullLINQ101ImplementationsSolution\\LINQOrderingOperators\\LINQOrderingOperators.csproj",
+      "projectName": "LINQOrderingOperators",
+      "projectPath": "C:\\Users\\josem\\source\\FullLINQ101Implementations\\FullLINQ101ImplementationsSolution\\LINQOrderingOperators\\LINQOrderingOperators.csproj",
       "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josem\\source\\FullLINQ101Implementations\\FullLINQ101ImplementationsSolution\\PartitionOperators\\obj\\",
+      "outputPath": "C:\\Users\\josem\\source\\FullLINQ101Implementations\\FullLINQ101ImplementationsSolution\\LINQOrderingOperators\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\josem\\AppData\\Roaming\\NuGet\\NuGet.Config",
