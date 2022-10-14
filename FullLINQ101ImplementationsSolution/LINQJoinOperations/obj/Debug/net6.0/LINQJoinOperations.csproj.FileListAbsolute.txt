@@ -1,0 +1,15 @@
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQJoinOperations\bin\Debug\net6.0\LINQJoinOperations.exe
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQJoinOperations\bin\Debug\net6.0\LINQJoinOperations.deps.json
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQJoinOperations\bin\Debug\net6.0\LINQJoinOperations.runtimeconfig.json
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQJoinOperations\bin\Debug\net6.0\LINQJoinOperations.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQJoinOperations\bin\Debug\net6.0\LINQJoinOperations.pdb
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQJoinOperations\obj\Debug\net6.0\LINQJoinOperations.csproj.AssemblyReference.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQJoinOperations\obj\Debug\net6.0\LINQJoinOperations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQJoinOperations\obj\Debug\net6.0\LINQJoinOperations.AssemblyInfoInputs.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQJoinOperations\obj\Debug\net6.0\LINQJoinOperations.AssemblyInfo.cs
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQJoinOperations\obj\Debug\net6.0\LINQJoinOperations.csproj.CoreCompileInputs.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQJoinOperations\obj\Debug\net6.0\LINQJoinOperations.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQJoinOperations\obj\Debug\net6.0\refint\LINQJoinOperations.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQJoinOperations\obj\Debug\net6.0\LINQJoinOperations.pdb
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQJoinOperations\obj\Debug\net6.0\LINQJoinOperations.genruntimeconfig.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQJoinOperations\obj\Debug\net6.0\ref\LINQJoinOperations.dll

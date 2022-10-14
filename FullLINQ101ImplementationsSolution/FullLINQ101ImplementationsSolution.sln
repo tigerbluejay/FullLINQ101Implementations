@@ -9,7 +9,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQProjectionOperators", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQPartitionOperators", "PartitionOperators\LINQPartitionOperators.csproj", "{67D61BA0-2C91-429C-9853-50844BC4B52E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQOrderingOperators", "LINQOrderingOperators\LINQOrderingOperators.csproj", "{E80469FD-5588-4753-9ED9-66F901422D16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQOrderingOperators", "LINQOrderingOperators\LINQOrderingOperators.csproj", "{E80469FD-5588-4753-9ED9-66F901422D16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQGroupingOperators", "LINQGroupingOperators\LINQGroupingOperators.csproj", "{1FA4891E-B5E9-49B6-B759-C14C73028B13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQSetOperators", "LINQSetOperators\LINQSetOperators.csproj", "{4B084D35-54CA-4EFB-B329-2485EE9E175F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQConversionOperators", "LINQConversionOperators\LINQConversionOperators.csproj", "{FEF6A7DF-E611-4E40-86E9-72B59CE61F1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQElementOperators", "LINQElementOperators\LINQElementOperators.csproj", "{E821B0BA-3DC1-4493-A510-AE9C22B1F12A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQGenerateSequences", "LINQGenerateSequences\LINQGenerateSequences.csproj", "{988572B7-94C8-451C-8DF7-0EACE16901A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQQuantifyingMembers", "LINQQuantifyingMembers\LINQQuantifyingMembers.csproj", "{6408CF0F-F457-463D-B507-564C698C73F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQAggregatorOperators", "LINQAggregatorOperators\LINQAggregatorOperators.csproj", "{D0B10988-61C6-435C-B3B1-7E9B14C92512}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQSequenceOperations", "LINQSequenceOperations\LINQSequenceOperations.csproj", "{F749C255-D22C-4F76-ADBA-5C35855E68CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQEagerandLazyQueryExecution", "LINQEagerandLazyQueryExecution\LINQEagerandLazyQueryExecution.csproj", "{AA7F2E85-F64F-4E05-8B90-2F3E95C92B99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQJoinOperations", "LINQJoinOperations\LINQJoinOperations.csproj", "{5BB2550E-5E58-48EF-881D-88D2D1FD417E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +53,46 @@ Global
 		{E80469FD-5588-4753-9ED9-66F901422D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E80469FD-5588-4753-9ED9-66F901422D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E80469FD-5588-4753-9ED9-66F901422D16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA4891E-B5E9-49B6-B759-C14C73028B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA4891E-B5E9-49B6-B759-C14C73028B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA4891E-B5E9-49B6-B759-C14C73028B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA4891E-B5E9-49B6-B759-C14C73028B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B084D35-54CA-4EFB-B329-2485EE9E175F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B084D35-54CA-4EFB-B329-2485EE9E175F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B084D35-54CA-4EFB-B329-2485EE9E175F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B084D35-54CA-4EFB-B329-2485EE9E175F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF6A7DF-E611-4E40-86E9-72B59CE61F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF6A7DF-E611-4E40-86E9-72B59CE61F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF6A7DF-E611-4E40-86E9-72B59CE61F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF6A7DF-E611-4E40-86E9-72B59CE61F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E821B0BA-3DC1-4493-A510-AE9C22B1F12A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E821B0BA-3DC1-4493-A510-AE9C22B1F12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E821B0BA-3DC1-4493-A510-AE9C22B1F12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E821B0BA-3DC1-4493-A510-AE9C22B1F12A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{988572B7-94C8-451C-8DF7-0EACE16901A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988572B7-94C8-451C-8DF7-0EACE16901A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988572B7-94C8-451C-8DF7-0EACE16901A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988572B7-94C8-451C-8DF7-0EACE16901A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6408CF0F-F457-463D-B507-564C698C73F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6408CF0F-F457-463D-B507-564C698C73F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6408CF0F-F457-463D-B507-564C698C73F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6408CF0F-F457-463D-B507-564C698C73F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0B10988-61C6-435C-B3B1-7E9B14C92512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B10988-61C6-435C-B3B1-7E9B14C92512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B10988-61C6-435C-B3B1-7E9B14C92512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B10988-61C6-435C-B3B1-7E9B14C92512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F749C255-D22C-4F76-ADBA-5C35855E68CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F749C255-D22C-4F76-ADBA-5C35855E68CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F749C255-D22C-4F76-ADBA-5C35855E68CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F749C255-D22C-4F76-ADBA-5C35855E68CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA7F2E85-F64F-4E05-8B90-2F3E95C92B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA7F2E85-F64F-4E05-8B90-2F3E95C92B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA7F2E85-F64F-4E05-8B90-2F3E95C92B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA7F2E85-F64F-4E05-8B90-2F3E95C92B99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB2550E-5E58-48EF-881D-88D2D1FD417E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB2550E-5E58-48EF-881D-88D2D1FD417E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB2550E-5E58-48EF-881D-88D2D1FD417E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB2550E-5E58-48EF-881D-88D2D1FD417E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQElementOperators\bin\Debug\net6.0\LINQElementOperators.exe
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQElementOperators\bin\Debug\net6.0\LINQElementOperators.deps.json
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQElementOperators\bin\Debug\net6.0\LINQElementOperators.runtimeconfig.json
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQElementOperators\bin\Debug\net6.0\LINQElementOperators.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQElementOperators\bin\Debug\net6.0\LINQElementOperators.pdb
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQElementOperators\obj\Debug\net6.0\LINQElementOperators.csproj.AssemblyReference.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQElementOperators\obj\Debug\net6.0\LINQElementOperators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQElementOperators\obj\Debug\net6.0\LINQElementOperators.AssemblyInfoInputs.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQElementOperators\obj\Debug\net6.0\LINQElementOperators.AssemblyInfo.cs
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQElementOperators\obj\Debug\net6.0\LINQElementOperators.csproj.CoreCompileInputs.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQElementOperators\obj\Debug\net6.0\LINQElementOperators.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQElementOperators\obj\Debug\net6.0\refint\LINQElementOperators.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQElementOperators\obj\Debug\net6.0\LINQElementOperators.pdb
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQElementOperators\obj\Debug\net6.0\LINQElementOperators.genruntimeconfig.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQElementOperators\obj\Debug\net6.0\ref\LINQElementOperators.dll

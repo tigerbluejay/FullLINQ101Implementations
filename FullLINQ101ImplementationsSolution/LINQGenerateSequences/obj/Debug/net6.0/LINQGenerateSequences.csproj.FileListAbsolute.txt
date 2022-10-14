@@ -1,0 +1,15 @@
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGenerateSequences\bin\Debug\net6.0\LINQGenerateSequences.exe
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGenerateSequences\bin\Debug\net6.0\LINQGenerateSequences.deps.json
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGenerateSequences\bin\Debug\net6.0\LINQGenerateSequences.runtimeconfig.json
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGenerateSequences\bin\Debug\net6.0\LINQGenerateSequences.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGenerateSequences\bin\Debug\net6.0\LINQGenerateSequences.pdb
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGenerateSequences\obj\Debug\net6.0\LINQGenerateSequences.csproj.AssemblyReference.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGenerateSequences\obj\Debug\net6.0\LINQGenerateSequences.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGenerateSequences\obj\Debug\net6.0\LINQGenerateSequences.AssemblyInfoInputs.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGenerateSequences\obj\Debug\net6.0\LINQGenerateSequences.AssemblyInfo.cs
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGenerateSequences\obj\Debug\net6.0\LINQGenerateSequences.csproj.CoreCompileInputs.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGenerateSequences\obj\Debug\net6.0\LINQGenerateSequences.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGenerateSequences\obj\Debug\net6.0\refint\LINQGenerateSequences.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGenerateSequences\obj\Debug\net6.0\LINQGenerateSequences.pdb
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGenerateSequences\obj\Debug\net6.0\LINQGenerateSequences.genruntimeconfig.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGenerateSequences\obj\Debug\net6.0\ref\LINQGenerateSequences.dll

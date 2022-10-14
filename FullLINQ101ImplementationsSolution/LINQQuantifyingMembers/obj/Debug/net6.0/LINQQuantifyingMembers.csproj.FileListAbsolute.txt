@@ -1,0 +1,15 @@
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQQuantifyingMembers\bin\Debug\net6.0\LINQQuantifyingMembers.exe
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQQuantifyingMembers\bin\Debug\net6.0\LINQQuantifyingMembers.deps.json
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQQuantifyingMembers\bin\Debug\net6.0\LINQQuantifyingMembers.runtimeconfig.json
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQQuantifyingMembers\bin\Debug\net6.0\LINQQuantifyingMembers.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQQuantifyingMembers\bin\Debug\net6.0\LINQQuantifyingMembers.pdb
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQQuantifyingMembers\obj\Debug\net6.0\LINQQuantifyingMembers.csproj.AssemblyReference.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQQuantifyingMembers\obj\Debug\net6.0\LINQQuantifyingMembers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQQuantifyingMembers\obj\Debug\net6.0\LINQQuantifyingMembers.AssemblyInfoInputs.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQQuantifyingMembers\obj\Debug\net6.0\LINQQuantifyingMembers.AssemblyInfo.cs
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQQuantifyingMembers\obj\Debug\net6.0\LINQQuantifyingMembers.csproj.CoreCompileInputs.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQQuantifyingMembers\obj\Debug\net6.0\LINQQuantifyingMembers.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQQuantifyingMembers\obj\Debug\net6.0\refint\LINQQuantifyingMembers.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQQuantifyingMembers\obj\Debug\net6.0\LINQQuantifyingMembers.pdb
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQQuantifyingMembers\obj\Debug\net6.0\LINQQuantifyingMembers.genruntimeconfig.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQQuantifyingMembers\obj\Debug\net6.0\ref\LINQQuantifyingMembers.dll

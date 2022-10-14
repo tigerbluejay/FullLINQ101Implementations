@@ -1,0 +1,15 @@
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGroupingOperators\bin\Debug\net6.0\LINQGroupingOperators.exe
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGroupingOperators\bin\Debug\net6.0\LINQGroupingOperators.deps.json
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGroupingOperators\bin\Debug\net6.0\LINQGroupingOperators.runtimeconfig.json
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGroupingOperators\bin\Debug\net6.0\LINQGroupingOperators.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGroupingOperators\bin\Debug\net6.0\LINQGroupingOperators.pdb
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGroupingOperators\obj\Debug\net6.0\LINQGroupingOperators.csproj.AssemblyReference.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGroupingOperators\obj\Debug\net6.0\LINQGroupingOperators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGroupingOperators\obj\Debug\net6.0\LINQGroupingOperators.AssemblyInfoInputs.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGroupingOperators\obj\Debug\net6.0\LINQGroupingOperators.AssemblyInfo.cs
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGroupingOperators\obj\Debug\net6.0\LINQGroupingOperators.csproj.CoreCompileInputs.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGroupingOperators\obj\Debug\net6.0\LINQGroupingOperators.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGroupingOperators\obj\Debug\net6.0\refint\LINQGroupingOperators.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGroupingOperators\obj\Debug\net6.0\LINQGroupingOperators.pdb
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGroupingOperators\obj\Debug\net6.0\LINQGroupingOperators.genruntimeconfig.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQGroupingOperators\obj\Debug\net6.0\ref\LINQGroupingOperators.dll

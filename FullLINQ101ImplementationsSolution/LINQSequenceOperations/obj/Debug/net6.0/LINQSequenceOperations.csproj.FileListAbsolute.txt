@@ -1,0 +1,15 @@
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQSequenceOperations\bin\Debug\net6.0\LINQSequenceOperations.exe
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQSequenceOperations\bin\Debug\net6.0\LINQSequenceOperations.deps.json
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQSequenceOperations\bin\Debug\net6.0\LINQSequenceOperations.runtimeconfig.json
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQSequenceOperations\bin\Debug\net6.0\LINQSequenceOperations.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQSequenceOperations\bin\Debug\net6.0\LINQSequenceOperations.pdb
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQSequenceOperations\obj\Debug\net6.0\LINQSequenceOperations.csproj.AssemblyReference.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQSequenceOperations\obj\Debug\net6.0\LINQSequenceOperations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQSequenceOperations\obj\Debug\net6.0\LINQSequenceOperations.AssemblyInfoInputs.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQSequenceOperations\obj\Debug\net6.0\LINQSequenceOperations.AssemblyInfo.cs
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQSequenceOperations\obj\Debug\net6.0\LINQSequenceOperations.csproj.CoreCompileInputs.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQSequenceOperations\obj\Debug\net6.0\LINQSequenceOperations.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQSequenceOperations\obj\Debug\net6.0\refint\LINQSequenceOperations.dll
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQSequenceOperations\obj\Debug\net6.0\LINQSequenceOperations.pdb
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQSequenceOperations\obj\Debug\net6.0\LINQSequenceOperations.genruntimeconfig.cache
+C:\Users\josem\source\FullLINQ101Implementations\FullLINQ101ImplementationsSolution\LINQSequenceOperations\obj\Debug\net6.0\ref\LINQSequenceOperations.dll
