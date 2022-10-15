@@ -5,7 +5,7 @@ This project is a fork of the original **101 LINQ Examples by Microsoft**.
 The 101 LINQ Examples by Microsoft is a *collection of queries that demonstrate
 the full power of LINQ syntax*. These examples utilize mainly query style syntax and some times, when there is no alternative, fluent syntax.
 
-This project maintains the core queries intact except for some variable renaming to improve readability, and **its main contribution is the _addition of relevant models such as Product, Customer_ and such, which should allow you understand how queries work when using custom classes.**
+This project maintains the core queries intact except for some variable renaming to improve readability, and **its main contribution is the _addition of relevant models such as Product, Order and Customer_, which should allow you understand how queries work when using custom classes.**
 
 Thus, ***there are now method definitions initializing classes with data which map to the empty method calls in the original examples***.
 
