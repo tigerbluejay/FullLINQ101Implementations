@@ -1,34 +1,16 @@
 ﻿using LINQQuantifyingMembers.Models;
 
-/////////////////////////////////////////////////////
-///////// Group by all elements matching a condition
-/////////////////////////////////////////////////////
 
-List<Product> products2 = GetProductList();
+////////////////////////////////////////////////
+///////// Check for any matching elements
+////////////////////////////////////////////////
 
-var productGroups2 = from product in products2
-                    group product by product.Category into g
-                    where g.All(product => product.UnitsInStock > 0)
-                    select (Category: g.Key, Products: g);
+string[] words = { "believe", "relief", "receipt", "field" };
 
-foreach (var group in productGroups2)
-{
-    Console.WriteLine(group.Category);
-    foreach (var product in group.Products)
-    {
-        Console.WriteLine($"\t{product}");
-    }
-}
+bool iAfterE = words.Any(word => word.Contains("ei"));
 
-////////////////////////////////////////////////////////
-///////// Check that all the elements match a condition
-////////////////////////////////////////////////////////
-
-int[] numbers = { 1, 11, 3, 19, 41, 65, 19 };
-
-bool onlyOdd = numbers.All(number => number % 2 == 1);
-
-Console.WriteLine($"The list contains only odd numbers: {onlyOdd}");
+Console.WriteLine($"There is a word in the list that contains 'ei': {iAfterE}");
+Console.ReadKey();
 
 
 /////////////////////////////////////////////////////////
@@ -49,6 +31,7 @@ foreach (var group in productGroups)
         Console.WriteLine($"\t{product}");
     }
 }
+Console.ReadKey();
 
 List<Product> GetProductList()
 {
@@ -63,12 +46,37 @@ List<Product> GetProductList()
     return productsList;
 }
 
-////////////////////////////////////////////////
-///////// Check for any matching elements
-////////////////////////////////////////////////
 
-string[] words = { "believe", "relief", "receipt", "field" };
 
-bool iAfterE = words.Any(word => word.Contains("ei"));
+////////////////////////////////////////////////////////
+///////// Check that all the elements match a condition
+////////////////////////////////////////////////////////
 
-Console.WriteLine($"There is a word that contains in the list that contains 'ei': {iAfterE}");
+int[] numbers = { 1, 11, 3, 19, 41, 65, 19 };
+
+bool onlyOdd = numbers.All(number => number % 2 == 1);
+
+Console.WriteLine($"The list contains only odd numbers: {onlyOdd}");
+Console.ReadKey();
+
+
+/////////////////////////////////////////////////////
+///////// Group by all elements matching a condition
+/////////////////////////////////////////////////////
+
+List<Product> products2 = GetProductList();
+
+var productGroups2 = from product in products2
+                    group product by product.Category into g
+                    where g.All(product => product.UnitsInStock > 0)
+                    select (Category: g.Key, Products: g);
+
+foreach (var group in productGroups2)
+{
+    Console.WriteLine(group.Category);
+    foreach (var product in group.Products)
+    {
+        Console.WriteLine($"\t{product}");
+    }
+}
+Console.ReadKey();

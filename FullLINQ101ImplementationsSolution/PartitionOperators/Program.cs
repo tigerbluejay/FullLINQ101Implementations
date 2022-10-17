@@ -2,100 +2,20 @@
 
 
 ///////////////////////////////////////
-/////// Indexed Skip While
+/////// Take Elements
 ///////////////////////////////////////
 
+int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
 
-int[] numbers6 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+var first3Numbers = numbers.Take(3);
 
-var laterNumbers = numbers6.SkipWhile((number, index) => number >= index);
-
-Console.WriteLine("All elements starting from first element less than its position:");
-foreach (var number in laterNumbers)
+Console.WriteLine("First 3 numbers:");
+foreach (var number in first3Numbers)
 {
     Console.WriteLine(number);
 }
+Console.ReadKey();
 
-
-///////////////////////////////////////
-/////// Skip While Synthax
-///////////////////////////////////////
-
-int[] numbers5 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
-
-// In the lambda expression, 'n' is the input parameter that identifies each
-// element in the collection in succession. It is is inferred to be
-// of type int because numbers is an int array.
-var allButFirst3Numbers = numbers5.SkipWhile(number => number % 3 != 0);
-
-Console.WriteLine("All elements starting from first element divisible by 3:");
-foreach (var number in allButFirst3Numbers)
-{
-    Console.WriteLine(number);
-}
-
-///////////////////////////////////////
-/////// Indexed Take While
-///////////////////////////////////////
-
-
-int[] numbers4 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
-
-var firstSmallNumbers = numbers4.TakeWhile((number, index) => number >= index);
-
-Console.WriteLine("First numbers not less than their position:");
-foreach (var number in firstSmallNumbers)
-{
-    Console.WriteLine(number);
-}
-
-
-///////////////////////////////////////
-/////// Take While Synthax
-///////////////////////////////////////
-
-int[] numbers3 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
-
-var firstNumbersLessThan6 = numbers3.TakeWhile(number => number < 6);
-
-Console.WriteLine("First numbers less than 6:");
-foreach (var number in firstNumbersLessThan6)
-{
-    Console.WriteLine(number);
-}
-
-///////////////////////////////////////
-/////// Nested Skip Partitions
-///////////////////////////////////////
-
-List<Customer> customers2 = GetCustomerList();
-
-var waOrders = from customer in customers2
-               from order in customer.Orders
-               where customer.Region == "WA"
-               select (customer.CustomerID, order.OrderID, order.OrderDate);
-
-var allButFirst2Orders = waOrders.Skip(2);
-
-Console.WriteLine("All but first 2 orders in WA:");
-foreach (var order in allButFirst2Orders)
-{
-    Console.WriteLine(order);
-}
-
-///////////////////////////////////////
-/////// Skip Elements
-///////////////////////////////////////
-
-int[] numbers2 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
-
-var allButFirst4Numbers = numbers2.Skip(4);
-
-Console.WriteLine("All but first 4 numbers:");
-foreach (var number in allButFirst4Numbers)
-{
-    Console.WriteLine(number);
-}
 
 ///////////////////////////////////////
 /////// Nested Take Partitions
@@ -115,6 +35,7 @@ foreach (var first3WAOrder in first3WAOrders)
 {
     Console.WriteLine(first3WAOrder);
 }
+Console.ReadKey();
 
 List<Customer> GetCustomerList()
 {
@@ -141,16 +62,108 @@ List<Customer> GetCustomerList()
 }
 
 
+
 ///////////////////////////////////////
-/////// Take Elements
+/////// Skip Elements
 ///////////////////////////////////////
 
-int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+int[] numbers2 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
 
-var first3Numbers = numbers.Take(3);
+var allButFirst4Numbers = numbers2.Skip(4);
 
-Console.WriteLine("First 3 numbers:");
-foreach (var number in first3Numbers)
+Console.WriteLine("All but first 4 numbers:");
+foreach (var number in allButFirst4Numbers)
 {
     Console.WriteLine(number);
 }
+Console.ReadKey();
+
+
+///////////////////////////////////////
+/////// Nested Skip Partitions
+///////////////////////////////////////
+
+List<Customer> customers2 = GetCustomerList();
+
+var waOrders = from customer in customers2
+               from order in customer.Orders
+               where customer.Region == "WA"
+               select (customer.CustomerID, order.OrderID, order.OrderDate);
+
+var allButFirst2Orders = waOrders.Skip(2);
+
+Console.WriteLine("All but first 2 orders in WA:");
+foreach (var order in allButFirst2Orders)
+{
+    Console.WriteLine(order);
+}
+Console.ReadKey();
+
+
+///////////////////////////////////////
+/////// Take While Synthax
+///////////////////////////////////////
+
+int[] numbers3 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+var firstNumbersLessThan6 = numbers3.TakeWhile(number => number < 6);
+
+Console.WriteLine("First numbers less than 6:");
+foreach (var number in firstNumbersLessThan6)
+{
+    Console.WriteLine(number);
+}
+Console.ReadKey();
+
+
+///////////////////////////////////////
+/////// Indexed Take While
+///////////////////////////////////////
+
+
+int[] numbers4 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+var firstSmallNumbers = numbers4.TakeWhile((number, index) => number >= index);
+
+Console.WriteLine("First numbers not less than their position:");
+foreach (var number in firstSmallNumbers)
+{
+    Console.WriteLine(number);
+}
+Console.ReadKey();
+
+
+///////////////////////////////////////
+/////// Skip While Synthax
+///////////////////////////////////////
+
+int[] numbers5 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+// In the lambda expression, 'n' is the input parameter that identifies each
+// element in the collection in succession. It is is inferred to be
+// of type int because numbers is an int array.
+var allButFirst3Numbers = numbers5.SkipWhile(number => number % 3 != 0);
+
+Console.WriteLine("All elements starting from first element divisible by 3:");
+foreach (var number in allButFirst3Numbers)
+{
+    Console.WriteLine(number);
+}
+Console.ReadKey();
+
+
+///////////////////////////////////////
+/////// Indexed Skip While
+///////////////////////////////////////
+
+
+int[] numbers6 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+var laterNumbers = numbers6.SkipWhile((number, index) => number >= index);
+
+Console.WriteLine("All elements starting from first element less than its position:");
+foreach (var number in laterNumbers)
+{
+    Console.WriteLine(number);
+}
+Console.ReadKey();

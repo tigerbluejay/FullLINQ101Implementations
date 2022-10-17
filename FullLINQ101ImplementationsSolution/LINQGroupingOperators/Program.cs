@@ -1,42 +1,81 @@
 ﻿using LINQGroupingOperators.Models;
 
-/////////////////////////////////////////////
-//// Groupby with a custom comparer with Key
-/////////////////////////////////////////////
 
-string[] anagrams3 = { "from   ", " salt", " earn ", "  last   ", " near ", " form  " };
+////////////////////////////////////////
+//// Groupby into buckets
+////////////////////////////////////////
 
-var orderGroups3 = anagrams3.GroupBy(
-            w => w.Trim(),
-            a => a.ToUpper(),
-            new AnagramEqualityComparer()
-            );
-foreach (var set in orderGroups3)
+int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+var numberGroups = from number in numbers
+                   group number by number % 5 into g
+                   select (Remainder: g.Key, Numbers: g);
+
+foreach (var numberGroup in numberGroups)
 {
-    Console.WriteLine(set.Key);
-    foreach (var word in set)
+    Console.WriteLine($"Numbers with a remainder of {numberGroup.Remainder} when divided by 5:");
+    foreach (var number in numberGroup.Numbers)
     {
-        Console.WriteLine($"\t{word}");
+        Console.WriteLine(number);
     }
 }
+Console.ReadKey();
+
 
 ////////////////////////////////////////
-//// Groupby with a custom comparaer
+//// Groupby using a property
 ////////////////////////////////////////
+string[] words = { "blueberry", "chimpanzee", "abacus", "banana", "apple", "cheese" };
 
-string[] anagrams = { "from   ", " salt", " earn ", "  last   ", " near ", " form  " };
+var wordGroups = from word in words
+                 group word by word[0] into g
+                 select (FirstLetter: g.Key, Words: g);
 
-var orderGroups2 = anagrams.GroupBy(w => w.Trim(), new AnagramEqualityComparer());
-
-foreach (var set in orderGroups2)
+foreach (var wordGroup in wordGroups)
 {
-    // The key would be the first item in the set
-    foreach (var word in set)
+    Console.WriteLine("Words that start with the letter '{0}':", wordGroup.FirstLetter);
+    foreach (var word in wordGroup.Words)
     {
         Console.WriteLine(word);
     }
-    Console.WriteLine("...");
 }
+Console.ReadKey();
+
+
+////////////////////////////////////////
+//// Grouping using a key property
+////////////////////////////////////////
+List<Product> products = GetProductList();
+
+var orderGroups = from product in products
+                  group product by product.Category into g
+                  select (Category: g.Key, Products: g);
+
+foreach (var orderGroup in orderGroups)
+{
+    Console.WriteLine($"Products in {orderGroup.Category} category:");
+    foreach (var product in orderGroup.Products)
+    {
+        Console.WriteLine($"\t{product}");
+    }
+}
+Console.ReadKey();
+
+List<Product> GetProductList()
+{
+    List<Product> productsList = new List<Product>();
+    Product product1 = new Product() { Category = "New" };
+    Product product2 = new Product() { Category = "Used" };
+    Product product3 = new Product() { Category = "New" };
+    Product product4 = new Product() { Category = "Used" };
+    productsList.Add(product1);
+    productsList.Add(product2);
+    productsList.Add(product3);
+    productsList.Add(product4);
+    return productsList;
+}
+
+
 
 ////////////////////////////////////////
 //// Nested Group by Queries
@@ -79,6 +118,7 @@ foreach (var ordersByCustomer in customerOrderGroups)
         }
     }
 }
+Console.ReadKey();
 
 List<Customer> GetCustomerList()
 
@@ -114,80 +154,49 @@ List<Customer> GetCustomerList()
 
     return customerList;
 };
-////////////////////////////////////////
-//// Grouping using a key property
-////////////////////////////////////////
-List<Product> products = GetProductList();
 
-var orderGroups = from product in products
-                  group product by product.Category into g
-                  select (Category: g.Key, Products: g);
 
-foreach (var orderGroup in orderGroups)
+
+////////////////////////////////////////
+//// Groupby with a custom comparaer
+////////////////////////////////////////
+
+string[] anagrams = { "from   ", " salt", " earn ", "  last   ", " near ", " form  " };
+
+var orderGroups2 = anagrams.GroupBy(w => w.Trim(), new AnagramEqualityComparer());
+
+foreach (var set in orderGroups2)
 {
-    Console.WriteLine($"Products in {orderGroup.Category} category:");
-    foreach (var product in orderGroup.Products)
-    {
-        Console.WriteLine($"\t{product}");
-    }
-}
-
-List<Product> GetProductList()
-{
-    List<Product> productsList = new List<Product>();
-    Product product1 = new Product() { Category = "New" };
-    Product product2 = new Product() { Category = "Used" };
-    Product product3 = new Product() { Category = "New" };
-    Product product4 = new Product() { Category = "Used" };
-    productsList.Add(product1);
-    productsList.Add(product2);
-    productsList.Add(product3);
-    productsList.Add(product4);
-    return productsList;
-}
-
-////////////////////////////////////////
-//// Groupby using a property
-////////////////////////////////////////
-string[] words = { "blueberry", "chimpanzee", "abacus", "banana", "apple", "cheese" };
-
-var wordGroups = from word in words
-                 group word by word[0] into g
-                 select (FirstLetter: g.Key, Words: g);
-
-foreach (var wordGroup in wordGroups)
-{
-    Console.WriteLine("Words that start with the letter '{0}':", wordGroup.FirstLetter);
-    foreach (var word in wordGroup.Words)
+    // The key would be the first item in the set
+    foreach (var word in set)
     {
         Console.WriteLine(word);
     }
+    Console.WriteLine("...");
 }
-////////////////////////////////////////
-//// Groupby into buckets
-////////////////////////////////////////
+Console.ReadKey();
 
-int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
 
-var numberGroups = from number in numbers
-                   group number by number % 5 into g
-                   select (Remainder: g.Key, Numbers: g);
+/////////////////////////////////////////////
+//// Groupby with a custom comparer with Key
+/////////////////////////////////////////////
 
-foreach (var numberGroup in numberGroups)
+string[] anagrams3 = { "from   ", " salt", " earn ", "  last   ", " near ", " form  " };
+
+var orderGroups3 = anagrams3.GroupBy(
+            w => w.Trim(),
+            a => a.ToUpper(),
+            new AnagramEqualityComparer()
+            );
+foreach (var set in orderGroups3)
 {
-    Console.WriteLine($"Numbers with a remainder of {numberGroup.Remainder} when divided by 5:");
-    foreach (var number in numberGroup.Numbers)
+    Console.WriteLine(set.Key);
+    foreach (var word in set)
     {
-        Console.WriteLine(number);
+        Console.WriteLine($"\t{word}");
     }
 }
-
-
-
-
-
-
-
+Console.ReadKey();
 
 
 /// <summary>

@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "LINQEagerandLazyQueryExecution/1.0.0": {
+        "dependencies": {
+          "LINQAggregatorOperators": "1.0.0"
+        },
         "runtime": {
           "LINQEagerandLazyQueryExecution.dll": {}
+        }
+      },
+      "LINQAggregatorOperators/1.0.0": {
+        "runtime": {
+          "LINQAggregatorOperators.dll": {}
         }
       }
     }
   },
   "libraries": {
     "LINQEagerandLazyQueryExecution/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LINQAggregatorOperators/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

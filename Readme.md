@@ -14,12 +14,12 @@ Thus, ***there are now method definitions initializing classes with data which m
 The project is organized around the original category query divisions Microsoft provided only now they are organized as individual projects alphabetically:
 
 - Aggregator Operators
-- Conversion Operatros
+- Conversion Operators
 - Eager and Lazy Query Execution
 - Element Operators
 - Generate Sequences
 - Grouping Operators
-- Join Opertaions
+- Join Operations
 - Ordering Operators
 - Projection Operators
 - Quantifying Members
@@ -27,7 +27,6 @@ The project is organized around the original category query divisions Microsoft 
 - Set Operators
 - Partition Operators
 
-Each project consists of a number of subsections corresponding to the original subsections, each with a query example, only now the examples provided at the start are placed at the bottom, with the end examples at the top. So it makes sense to read the examples from the bottom up in each project.
 
 ## Variable Renaming
 

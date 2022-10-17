@@ -1,6 +1,60 @@
 ﻿
+
+//////////////////////////////////////
+//////// Queries execute lazily
+//////////////////////////////////////
+//The following sample shows how query execution is deferred
+// until the query is enumerated at a foreach statement.
+// This is the default for LINQ
+
+// Sequence operators form first-class queries that
+// are not executed until you enumerate over them.
+
+int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+int i = 0;
+var query = from number in numbers
+            select ++i;
+
+// Note, the local variable 'i' is not incremented
+// until each element is evaluated (as a side-effect):
+// On this for each loop is when the query is executed
+foreach (var value in query)
+{
+    Console.WriteLine($"v = {value}, i = {i}");
+}
+Console.ReadKey();
+
+
+////////////////////////////////////////
+//////// Request Eager Query Execution
+////////////////////////////////////////
+// The following sample shows how queries can be executed
+// immediately with operators such as ToList().
+
+
+// Methods like ToList() cause the query to be
+// executed immediately, caching the results.
+// The query has been executed when we call the ToList() method.
+
+int[] numbers2 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+int j = 0;
+var query2 = (from number in numbers2
+              select ++j)
+         .ToList();
+
+// The local variable j has already been fully
+// incremented before we iterate the results:
+foreach (var value in query2)
+{
+    Console.WriteLine($"v = {value}, j = {j}");
+}
+Console.ReadKey();
+
+
 /////////////////////////////////////////
-//////// Reuse Queries with New Results !!!!!!!!!!!!!
+//////// Reuse Queries with New Results 
 /////////////////////////////////////////
 // The following sample shows how, because of deferred execution,
 // queries can be used again after data changes
@@ -33,52 +87,4 @@ foreach (int n in lowNumbers)
 {
     Console.WriteLine(n);
 }
-
-////////////////////////////////////////
-//////// Request Eager Query Execution
-////////////////////////////////////////
-// The following sample shows how queries can be executed
-// immediately with operators such as ToList().
-
-
-// Methods like ToList() cause the query to be
-// executed immediately, caching the results.
-// The query has been executed when we call the ToList() method.
-
-int[] numbers2 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
-
-int j = 0;
-var query2 = (from number in numbers2
-         select ++j)
-         .ToList();
-
-// The local variable j has already been fully
-// incremented before we iterate the results:
-foreach (var value in query2)
-{
-    Console.WriteLine($"v = {value}, j = {j}");
-}
-
-//////////////////////////////////////
-//////// Queries execute lazily
-//////////////////////////////////////
-//The following sample shows how query execution is deferred
-// until the query is enumerated at a foreach statement.
-// This is the default for LINQ
-
-// Sequence operators form first-class queries that
-// are not executed until you enumerate over them.
-
-int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
-
-int i = 0;
-var query = from number in numbers
-        select ++i;
-
-// Note, the local variable 'i' is not incremented
-// until each element is evaluated (as a side-effect):
-// On this for each loop is when the query is executed
-foreach (var value in query)
-{
-    Console.WriteLine($"v = {value}, i = {i}");
-}
+Console.ReadKey();
