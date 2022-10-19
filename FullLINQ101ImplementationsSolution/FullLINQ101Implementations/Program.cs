@@ -12,9 +12,9 @@ var lowNumbers = from number in numbers
                  select number;
 
 Console.WriteLine("Numbers < 5:");
-foreach (var x in lowNumbers)
+foreach (var lowNumber in lowNumbers)
 {
-    Console.WriteLine(x);
+    Console.WriteLine(lowNumber);
 }
 Console.ReadKey();
 

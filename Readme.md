@@ -43,3 +43,9 @@ Now all the data is visible so it is easier to make sense of it. Although some q
 ## Future Developments
 
 Additional work is needed in terms of formatting for query results. For example there is no spacing or headings in the output, so all results stick together within each project - still you should be able to make out what each query's output is.
+
+## Release Publication
+
+Learn more about how to use this repo in the following link:
+
+[Read Article](https://dev.to/josemariairiarte/learn-linq-with-101-examples-and-sample-data-query-syntax-26an)
