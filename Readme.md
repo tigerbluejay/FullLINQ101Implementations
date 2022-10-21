@@ -40,10 +40,6 @@ I did this because, before I created this project I wasn't sure how many levels 
 
 Now all the data is visible so it is easier to make sense of it. Although some queries are nested, in general classes nest one level deep, and so you may have a List of Customers, each with a property set to a List of Products, but in no case does nesting go deeper than that.
 
-## Future Developments
-
-Additional work is needed in terms of formatting for query results. For example there is no spacing or headings in the output, so all results stick together within each project - still you should be able to make out what each query's output is.
-
 ## Release Publication
 
 Learn more about how to use this repo in the following link:
