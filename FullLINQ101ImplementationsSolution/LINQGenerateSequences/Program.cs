@@ -4,9 +4,10 @@
 ////////// Create a range of numbers
 //////////////////////////////////////////////
 
-var numbers = from number in Enumerable.Range(100, 50)
-              select (Number: number, OddEven: number % 2 == 1 ? "odd" : "even");
+//var numbers = from number in Enumerable.Range(100, 50)
+//              select (Number: number, OddEven: number % 2 == 1 ? "odd" : "even");
 
+var numbers = Enumerable.Range(100,50).Select(number => new {Number = number, OddEven = (number % 2 == 1 ? "odd" : "even")});
 foreach (var number in numbers)
 {
     Console.WriteLine("The number {0} is {1}.", number.Number, number.OddEven);

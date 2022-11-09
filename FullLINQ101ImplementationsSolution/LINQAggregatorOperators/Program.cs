@@ -32,8 +32,10 @@ Console.ReadKey();
 
 List<Customer> customers = GetCustomerList();
 
-var orderCounts = from customer in customers
-                  select (customer.CustomerID, OrderCount: customer.Orders.Count());
+//var orderCounts = from customer in customers
+//                  select (customer.CustomerID, OrderCount: customer.Orders.Count());
+
+var orderCounts = customers.Select(customer => (customer.CustomerID, OrderCount: customer.Orders.Count()));
 
 foreach (var customer in orderCounts)
 {
@@ -79,6 +81,7 @@ List<Product> products = GetProductList();
 var categoryCounts = from product in products
                      group product by product.Category into g
                      select (Category: g.Key, ProductCount: g.Count());
+
 
 foreach (var categoryCount in categoryCounts)
 {
@@ -338,4 +341,5 @@ double endBalance =
 
 Console.WriteLine($"Ending balance: {endBalance}");
 Console.ReadKey();
+
 

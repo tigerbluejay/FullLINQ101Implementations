@@ -13,8 +13,10 @@
 int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
 
 int i = 0;
-var query = from number in numbers
-            select ++i;
+//var query = from number in numbers
+//            select ++i;
+
+var query = numbers.Select(number => ++i);
 
 // Note, the local variable 'i' is not incremented
 // until each element is evaluated (as a side-effect):
@@ -40,9 +42,11 @@ Console.ReadKey();
 int[] numbers2 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
 
 int j = 0;
-var query2 = (from number in numbers2
-              select ++j)
-         .ToList();
+//var query2 = (from number in numbers2
+//              select ++j)
+//         .ToList();
+
+var query2 = numbers2.Select(number => ++j).ToList();
 
 // The local variable j has already been fully
 // incremented before we iterate the results:
@@ -64,9 +68,11 @@ Console.ReadKey();
 // and then reuse it later after data changes.
 
 int[] numbers3 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
-var lowNumbers = from number in numbers3
-                 where number <= 3
-                 select number;
+//var lowNumbers = from number in numbers3
+//                 where number <= 3
+//                 select number;
+
+var lowNumbers = numbers3.Where(number => number <= 3);
 
 Console.WriteLine("First run numbers <= 3:");
 foreach (int number in lowNumbers)

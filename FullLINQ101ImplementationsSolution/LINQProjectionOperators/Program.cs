@@ -7,8 +7,10 @@
 
 int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
 
-var numbersPlusOne = from number in numbers
-                     select number + 1;
+//var numbersPlusOne = from number in numbers
+//                     select number + 1;
+
+var numbersPlusOne = numbers.Select(number => number + 1);
 
 Console.WriteLine("Numbers + 1:");
 foreach (var numberPlusOne in numbersPlusOne)
@@ -24,8 +26,10 @@ Console.ReadKey();
 
 List<Product> products = GetProductList();
 
-var productNames = from product in products
-                   select product.ProductName;
+//var productNames = from product in products
+//                   select product.ProductName;
+
+var productNames = products.Select(product => product.ProductName);
 
 Console.WriteLine("Product Names:");
 foreach (var productName in productNames)
@@ -54,8 +58,10 @@ List<Product> GetProductList()
 int[] numbers2 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
 string[] strings = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
-var textNumbers = from number in numbers2
-                  select strings[number];
+//var textNumbers = from number in numbers2
+//                  select strings[number];
+
+var textNumbers = numbers2.Select(number => strings[number]);
 
 Console.WriteLine("Number strings:");
 foreach (var textNumber in textNumbers)
@@ -71,8 +77,11 @@ Console.ReadKey();
 
 string[] words = { "aPPLE", "BlUeBeRrY", "cHeRry" };
 
-var upperLowerWords = from word in words
-                      select new { Upper = word.ToUpper(), Lower = word.ToLower() };
+//var upperLowerWords = from word in words
+//                      select new { Upper = word.ToUpper(), Lower = word.ToLower() };
+
+var upperLowerWords = words.Select(word => new { Upper = word.ToUpper(), Lower = word.ToLower() }).ToList();
+
 
 foreach (var upperLowerWord in upperLowerWords)
 {
@@ -85,6 +94,7 @@ string[] words2 = { "aPPLE", "BlUeBeRrY", "cHeRry" };
 
 var upperLowerWords2 = from word in words2
                        select (Upper: word.ToUpper(), Lower: word.ToLower());
+
 
 foreach (var upperLowerWord in upperLowerWords2)
 {
@@ -100,8 +110,10 @@ Console.ReadKey();
 int[] numbers4 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
 string[] strings3 = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
-var digitOddEvens = from number in numbers4
-                    select new { Digit = strings3[number], Even = (number % 2 == 0) };
+//var digitOddEvens = from number in numbers4
+//                    select new { Digit = strings3[number], Even = (number % 2 == 0) };
+
+var digitOddEvens = numbers4.Select( number => new { Digit = strings3[number], Even = number % 2 == 0 });
 
 foreach (var digitOddEven in digitOddEvens)
 {
@@ -129,8 +141,10 @@ Console.ReadKey();
 
 List<Product> products2 = GetProductList();
 
-var productInfos = from product in products2
-                   select (product.ProductName, product.Category, Price: product.UnitPrice);
+//var productInfos = from product in products2
+//                   select (product.ProductName, product.Category, Price: product.UnitPrice);
+
+var productInfos = products2.Select(product => new { product.ProductName, product.Category, Price = product.UnitPrice });
 
 Console.WriteLine("Product Info:");
 foreach (var productInfo in productInfos)
@@ -147,6 +161,7 @@ Console.ReadKey();
 int[] numbers5 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
 
 var numbersInPlace = numbers5.Select((number, index) => (Num: number, InPlace: (number == index)));
+
 Console.WriteLine("Number: In-place?");
 foreach (var numberInPlace in numbersInPlace)
 {
@@ -162,9 +177,11 @@ Console.ReadKey();
 int[] numbers6 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
 string[] digits6 = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
-var lowNumbers = from number in numbers6
-                 where number < 5
-                 select digits6[number];
+//var lowNumbers = from number in numbers6
+//                 where number < 5
+//                 select digits6[number];
+
+var lowNumbers = numbers6.Where(number => number < 5).Select(number => digits6[number]);
 
 Console.WriteLine("Numbers < 5:");
 foreach (var lowNumber in lowNumbers)
@@ -185,6 +202,7 @@ var pairs = from numberA in numbersA
             from numberB in numbersB
             where numberA < numberB
             select (numberA, numberB);
+
 
 Console.WriteLine("Pairs where a < b:");
 

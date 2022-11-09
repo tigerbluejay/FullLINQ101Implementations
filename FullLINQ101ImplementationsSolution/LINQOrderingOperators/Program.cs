@@ -7,9 +7,11 @@
 
 string[] words = { "cherry", "apple", "blueberry" };
 
-var sortedWords = from word in words
-                  orderby word
-                  select word;
+//var sortedWords = from word in words
+//                  orderby word
+//                  select word;
+
+var sortedWords = words.OrderBy(word => word).Select(word => word);
 
 Console.WriteLine("The sorted list of words:");
 foreach (var sortedWord in sortedWords)
@@ -25,9 +27,11 @@ Console.ReadKey();
 
 string[] words2 = { "cherry", "apple", "blueberry" };
 
-var sortedWords2 = from word in words2
-                   orderby word.Length
-                   select word;
+//var sortedWords2 = from word in words2
+//                   orderby word.Length
+//                   select word;
+
+var sortedWords2 = words2.OrderBy(word => word.Length).Select(word => word);
 
 Console.WriteLine("The sorted list of words (by length):");
 foreach (var sortedWord in sortedWords2)
@@ -43,9 +47,11 @@ Console.ReadKey();
 
 List<Product> products = GetProductList();
 
-var sortedProducts = from product in products
-                     orderby product.ProductName
-                     select product;
+//var sortedProducts = from product in products
+//                     orderby product.ProductName
+//                     select product;
+
+var sortedProducts = products.OrderBy(product => product.ProductName).Select(product => product);
 
 foreach (var sortedProduct in sortedProducts)
 {
@@ -83,9 +89,11 @@ List<Product> GetProductList()
 
 double[] doubles = { 1.7, 2.3, 1.9, 4.1, 2.9 };
 
-var sortedDoubles = from d in doubles
-                    orderby d descending
-                    select d;
+//var sortedDoubles = from d in doubles
+//                    orderby d descending
+//                    select d;
+
+var sortedDoubles = doubles.OrderByDescending(d => d).Select(d => d);
 
 Console.WriteLine("The doubles from highest to lowest:");
 foreach (var d in sortedDoubles)
@@ -101,9 +109,11 @@ Console.ReadKey();
 
 List<Product> products2 = GetProductList();
 
-var sortedProducts2 = from product in products2
-                      orderby product.UnitsInStock descending
-                      select product;
+//var sortedProducts2 = from product in products2
+//                      orderby product.UnitsInStock descending
+//                      select product;
+
+var sortedProducts2 = products2.OrderByDescending(product => product.UnitsInStock).Select(product => product);
 
 foreach (var sortedProduct in sortedProducts2)
 {
@@ -118,9 +128,11 @@ Console.ReadKey();
 
 string[] digits = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
-var sortedDigits = from digit in digits
-                   orderby digit.Length, digit
-                   select digit;
+//var sortedDigits = from digit in digits
+//                   orderby digit.Length, digit
+//                   select digit;
+
+var sortedDigits = digits.OrderBy(digit => digit.Length).ThenBy(digit => digit).Select(digit => digit);
 
 Console.WriteLine("Sorted digits:");
 foreach (var sortedDigit in sortedDigits)
@@ -136,9 +148,12 @@ Console.ReadKey();
 
 List<Product> products3 = GetProductList();
 
-var sortedProducts3 = from product in products3
-                      orderby product.Category, product.UnitPrice descending
-                      select product;
+//var sortedProducts3 = from product in products3
+//                      orderby product.Category, product.UnitPrice descending
+//                      select product;
+
+var sortedProducts3 = products3.OrderByDescending(product => product.Category).ThenByDescending(product => product.UnitPrice)
+    .Select(product => product);
 
 foreach (var sortedProduct in sortedProducts3)
 {
@@ -153,11 +168,13 @@ Console.ReadKey();
 
 string[] digits2 = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
-var reversedIDigits = (
-    from digit in digits2
-    where digit[1] == 'i'
-    select digit)
-    .Reverse();
+//var reversedIDigits = (
+//    from digit in digits2
+//    where digit[1] == 'i'
+//    select digit)
+//    .Reverse();
+
+var reversedIDigits = digits2.Where((digit, i) => digit[1] == 'i').Select(digit => digit).Reverse();
 
 Console.WriteLine("A backwards list of the digits with a second character of 'i':");
 foreach (var reversedIDigit in reversedIDigits)

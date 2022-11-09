@@ -23,9 +23,11 @@ Console.ReadKey();
 
 List<Product> products = GetProductList();
 
-var categoryNames = (from product in products
-                     select product.Category)
-                     .Distinct();
+//var categoryNames = (from product in products
+//                     select product.Category)
+//                     .Distinct();
+
+var categoryNames = products.Select(product => product.Category).Distinct();
 
 Console.WriteLine("Category names:");
 foreach (var categoryName in categoryNames)
@@ -75,10 +77,13 @@ Console.ReadKey();
 List<Product> products2 = GetProductList();
 List<Customer> customers2 = GetCustomerList();
 
-var productFirstChars = from product in products2
-                        select product.ProductName[0];
-var customerFirstChars = from customer in customers2
-                         select customer.CompanyName[0];
+//var productFirstChars = from product in products2
+//                        select product.ProductName[0];
+//var customerFirstChars = from customer in customers2
+//                         select customer.CompanyName[0];
+
+var productFirstChars = products2.Select(product => product.ProductName[0]);
+var customerFirstChars = customers2.Select(customer => customer.CompanyName[0]);
 
 var uniqueFirstChars = productFirstChars.Union(customerFirstChars);
 
@@ -128,10 +133,13 @@ Console.ReadKey();
 List<Product> products3 = GetProductList();
 List<Customer> customers3 = GetCustomerList();
 
-var productFirstChars3 = from product in products3
-                         select product.ProductName[0];
-var customerFirstChars3 = from customer in customers3
-                          select customer.CompanyName[0];
+//var productFirstChars3 = from product in products3
+//                         select product.ProductName[0];
+//var customerFirstChars3 = from customer in customers3
+//                          select customer.CompanyName[0];
+
+var productFirstChars3 = products3.Select(product => product.ProductName[0]);
+var customerFirstChars3 = customers3.Select(customer => customer.CompanyName[0]);
 
 var commonFirstChars = productFirstChars3.Intersect(customerFirstChars3);
 
@@ -167,10 +175,13 @@ Console.ReadKey();
 List<Product> products4 = GetProductList();
 List<Customer> customers4 = GetCustomerList();
 
-var productFirstChars4 = from product in products4
-                        select product.ProductName[0];
-var customerFirstChars4 = from customer in customers4
-                         select customer.CompanyName[0];
+//var productFirstChars4 = from product in products4
+//                        select product.ProductName[0];
+//var customerFirstChars4 = from customer in customers4
+//                         select customer.CompanyName[0];
+
+var productFirstChars4 = products4.Select(product => product.ProductName[0]);
+var customerFirstChars4 = customers4.Select(customer => customer.CompanyName[0]);
 
 var productOnlyFirstChars4 = productFirstChars4.Except(customerFirstChars4);
 

@@ -7,9 +7,11 @@
 
 int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
 
-var lowNumbers = from number in numbers
-                 where number < 5
-                 select number;
+//var lowNumbers = from number in numbers
+//                 where number < 5
+//                 select number;
+
+var lowNumbers = numbers.Where(number => number < 5).Select(number => number);
 
 Console.WriteLine("Numbers < 5:");
 foreach (var lowNumber in lowNumbers)
@@ -25,9 +27,11 @@ Console.ReadKey();
 
 List<Product> products = GetProductList();
 
-var soldOutProducts = from product in products
-                      where product.UnitsInStock == 0
-                      select product;
+//var soldOutProducts = from product in products
+//                      where product.UnitsInStock == 0
+//                      select product;
+
+var soldOutProducts = products.Where(product => product.UnitsInStock == 0).Select(product => product);
 
 Console.WriteLine("Sold out products:");
 foreach (var soldOutProduct in soldOutProducts)
@@ -60,9 +64,12 @@ List<Product> GetProductList()
 
 List<Product> products2 = GetProductList();
 
-var expensiveInStockProducts = from product in products2
-                               where product.UnitsInStock > 0 && product.UnitPrice > 3.00M
-                               select product;
+//var expensiveInStockProducts = from product in products2
+//                               where product.UnitsInStock > 0 && product.UnitPrice > 3.00M
+//                               select product;
+
+var expensiveInStockProducts = products2.Where(product => (product.UnitsInStock > 0 && product.UnitPrice > 3.00M))
+    .Select(product => product);
 
 Console.WriteLine("In-stock products that cost more than 3.00:");
 foreach (var expensiveInStockProduct in expensiveInStockProducts)
@@ -78,9 +85,11 @@ Console.ReadKey();
 
 List<Customer> customers = GetCustomerList();
 
-var waCustomers = from customer in customers
-                  where customer.Region == "WA"
-                  select customer;
+//var waCustomers = from customer in customers
+//                  where customer.Region == "WA"
+//                  select customer;
+
+var waCustomers = customers.Where(customer => customer.Region == "WA").Select(customer => customer);
 
 Console.WriteLine("Customers from Washington and their orders:");
 foreach (var wacustomer in waCustomers)

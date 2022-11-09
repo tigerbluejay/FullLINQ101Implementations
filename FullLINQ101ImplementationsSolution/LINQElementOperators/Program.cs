@@ -7,10 +7,12 @@
 
 List<Product> products = GetProductList();
 
-Product product12 = (from product in products
-                     where product.ProductID == 12
-                     select product)
-                     .First();
+//Product product12 = (from product in products
+//                     where product.ProductID == 12
+//                     select product)
+//                     .First();
+
+var product12 = products.Where(product => product.ProductID == 12).First();
 
 Console.WriteLine(product12);
 
@@ -80,11 +82,13 @@ Console.ReadKey();
 
 int[] numbers2 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
 
-int fourthLowNum = (
-    from number in numbers2
-    where number > 5
-    select number)
-    .ElementAt(1);  // second number is index 1 because sequences use 0-based indexing
+//int fourthLowNum = (
+//    from number in numbers2
+//    where number > 5
+//    select number)
+//    .ElementAt(1);  // second number is index 1 because sequences use 0-based indexing
+
+var fourthLowNum = numbers2.Where(number => number > 5).ElementAt(1); 
 
 Console.WriteLine($"Second number > 5: {fourthLowNum}");
 Console.ReadKey();

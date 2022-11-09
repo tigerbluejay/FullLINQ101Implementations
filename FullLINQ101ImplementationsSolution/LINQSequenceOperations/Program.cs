@@ -38,10 +38,13 @@ Console.ReadKey();
 List<Customer> customers = GetCustomerList();
 List<Product> products = GetProductList();
 
-var customerNames = from customer in customers
-                    select customer.CompanyName;
-var productNames = from product in products
-                   select product.ProductName;
+//var customerNames = from customer in customers
+//                    select customer.CompanyName;
+//var productNames = from product in products
+//                   select product.ProductName;
+
+var customerNames = customers.Select(customer => customer.CompanyName);
+var productNames = products.Select(product => product.ProductName);
 
 var allNames = customerNames.Concat(productNames);
 

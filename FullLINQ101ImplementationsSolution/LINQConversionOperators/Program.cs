@@ -6,10 +6,12 @@
 
 double[] doubles = { 1.7, 2.3, 1.9, 4.1, 2.9 };
 
-var sortedDoubles = from d in doubles
-                    orderby d descending
-                    select d;
-var doublesArray = sortedDoubles.ToArray();
+//var sortedDoubles = from d in doubles
+//                    orderby d descending
+//                    select d;
+//var doublesArray = sortedDoubles.ToArray();
+
+var doublesArray = doubles.OrderByDescending(d => d).ToArray();
 
 Console.WriteLine("Every other double from highest to lowest:");
 for (int d = 0; d < doublesArray.Length; d += 2)
@@ -25,10 +27,12 @@ Console.ReadKey();
 
 string[] words = { "cherry", "apple", "blueberry" };
 
-var sortedWords = from word in words
-                  orderby word
-                  select word;
-var wordList = sortedWords.ToList();
+//var sortedWords = from word in words
+//                  orderby word
+//                  select word;
+//var wordList = sortedWords.ToList();
+
+var wordList = words.OrderBy(word => word).ToList();
 
 Console.WriteLine("The sorted word list:");
 foreach (var word in wordList)
